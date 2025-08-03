@@ -1,0 +1,45 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Good morning", "Good evening", "Is anyone there?"],
+        "responses": [
+          "Hello. I’m here to assist you with your wellness concerns. How can I help today?",
+          "Good day. I'm your wellness assistant. What would you like to know?"
+        ]
+      },
+      {
+        "tag": "stress_advice",
+        "patterns": ["I'm stressed", "I feel anxious", "How to reduce stress?", "Stress relief tips"],
+        "responses": [
+          "For stress management, consider deep breathing, mindfulness exercises, or light aerobic activity. Persistent symptoms may require professional consultation.",
+          "Chronic stress can impact your health. Try progressive muscle relaxation or guided meditation. Speak to a licensed professional if it continues."
+        ]
+      },
+      {
+        "tag": "sleep_tips",
+        "patterns": ["I can't sleep", "Tips for better sleep", "Insomnia help", "Sleep hygiene"],
+        "responses": [
+          "Maintain a consistent sleep schedule, avoid caffeine late in the day, and limit screen exposure before bedtime. A calm, dark environment supports quality sleep.",
+          "Poor sleep hygiene is a common cause of insomnia. Reduce screen time at night, keep your bedroom cool, and try a consistent wind-down routine."
+        ]
+      },
+      {
+        "tag": "diet_suggestions",
+        "patterns": ["Healthy eating", "Nutrition tips", "What to eat?", "Balanced diet suggestions"],
+        "responses": [
+          "A balanced diet includes whole grains, lean proteins, vegetables, fruits, and healthy fats. Limit processed foods and added sugars.",
+          "Ensure your meals provide adequate fiber, hydration, and essential nutrients. Consider small, frequent meals to stabilize energy levels."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Thank you", "That's all", "See you later"],
+        "responses": [
+          "You're welcome. Stay well and reach out if you have further questions.",
+          "Take care. Remember, consistency is key to long-term wellness."
+        ]
+      }
+    ]
+  }
+  
